@@ -1,9 +1,13 @@
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+    font-family: 'Cookie', cursive;
+    /* font-family: 'Varela Round', sans-serif;
+    font-family: 'Abel', sans-serif;     */
     position: relative;
     width: 100%;
     height: 100%;
-    color: rgb(218, 176, 93);;
+    color: #a8742a;
     background-color: black;
   }
   
@@ -13,16 +17,19 @@ html {
   }
 
 p {
-    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #986123;
+    font-size: 20px;
     line-height: 1.5;
     margin: 0 0 25px;
   }
   
 @media (min-width: 768px) {
     p {
-      font-size: 18px;
-      line-height: 1.6;
-      margin: 0 0 35px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        line-height: 1.6;
+        margin: 0 0 35px;
     }
   }
   
@@ -30,12 +37,12 @@ a {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    color: rgb(218, 176, 93);
+    color: #89501e;
   }
   
 a:focus, a:hover {
     text-decoration: none;
-    color: #9b381d;
+    color: #89501e;
   }
 
 .mastheader {
@@ -44,6 +51,11 @@ a:focus, a:hover {
     height: auto;
     padding: 100px 0;
     text-align: center;
+    background: url("../asset/DSC09640-3.jpg") no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   
 .mastheader .intro-body {
@@ -56,7 +68,7 @@ a:focus, a:hover {
   }
   
 .mastheader .intro-body .intro-text {
-    font-size: 18px;
+    font-size: 20px;
   }
 
 .mastheader .intro-body .logo {
@@ -73,7 +85,7 @@ a:focus, a:hover {
       font-size: 50px;
     }
     .mastheader .intro-body .intro-text {
-      font-size: 18px;
+      font-size: 25px;
     }
 
     .mastheader .intro-body .logo {
@@ -104,8 +116,8 @@ ul.banner-social-buttons {
   }
 
 .btn {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 150;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -114,14 +126,14 @@ ul.banner-social-buttons {
   }
   
 .btn-default {
-    color: rgb(218, 176, 93);
-    border: 1px solid rgb(218, 176, 93);
+    color: #935c21;
+    border: 1px solid #935c21;
     background-color: transparent;
   }
   
 .btn-default:focus, .btn-default:hover {
-    color: white;
-    border: 1px solid rgb(218, 176, 93);
+    color: #fbe39d;
+    border: 1px solid #1d1104;
     outline: none;
-    background-color: rgb(218, 176, 93);
+    background-color: #1d1104;
   }  
